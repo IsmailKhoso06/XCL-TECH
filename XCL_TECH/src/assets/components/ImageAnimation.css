@@ -1,0 +1,26 @@
+.imageAnimation{
+    animation: toandfro 8s infinite ease-in-out;
+    -webkit-animation: toandfro 8s infinite ease-in-out;
+}
+
+@keyframes toandfro{
+    0%{
+        top: -180px;
+        left: 0px;
+
+    }
+    50%{
+        top: -300px;
+        transform: rotate(-30deg);
+        left: -100px;
+}
+    100%{
+        top: -180px;
+        left: 0px;
+    }
+}
+
+
+.HeroText{
+    line-height: 0.8;
+}
