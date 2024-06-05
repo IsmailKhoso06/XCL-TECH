@@ -1,6 +1,6 @@
 .imageAnimation{
-    animation: toandfro 8s infinite ease-in-out;
-    -webkit-animation: toandfro 8s infinite ease-in-out;
+    animation: toandfro 6s infinite ease-in-out;
+    -webkit-animation: toandfro 6s infinite ease-in-out;
 }
 
 @keyframes toandfro{

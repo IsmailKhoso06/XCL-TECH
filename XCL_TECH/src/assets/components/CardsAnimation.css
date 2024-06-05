@@ -1,0 +1,26 @@
+
+.cardHover{
+    background: white;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.cardHover:hover{
+ background: #F67510;
+}
+
+.serviceImages{
+    transition: all 0.3s ease-in-out;
+    margin-top: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.cardHover:hover img {
+    background: white;
+    margin-top: 0px;
+}

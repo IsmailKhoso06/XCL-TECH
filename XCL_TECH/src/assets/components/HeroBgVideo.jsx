@@ -11,7 +11,7 @@ function HeroBgVideo() {
 
   return (
     <div>
-      <video src='./public/HeroVideo.mp4' loop autoPlay muted style={VideoStyles} ></video>
+      <video src='./public/HeroVideoFinal.mp4' loop autoPlay muted style={VideoStyles} ></video>
     </div>
   )
 }
