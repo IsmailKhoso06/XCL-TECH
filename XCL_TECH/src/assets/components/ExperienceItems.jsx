@@ -9,7 +9,7 @@ function ExperienceItems() {
 
   return (
     <div className='container'>
-      <div class="row">
+      <div className="row">
       <div className='d-flex justify-content-around align-items-center' style={{marginTop:"1.3rem"}} >
       <span className='align-items-center'>
          <span style={experienceStyles}>20+ </span>Years of Experience

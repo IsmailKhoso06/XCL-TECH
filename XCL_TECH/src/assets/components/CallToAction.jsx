@@ -1,20 +1,20 @@
 import React from 'react'
-import ExperienceItems from './ExperienceItems'
+import CallText from './CallText'
 
-function Experience() {
-
+function CallToAction() {
+    
     const ExperienceStyles = {
-        height: "130px",
+        height: "200px",
         background: "#F67510",
         marginBottom:"50px"
     }
 
 
-  return (
+  return (  
     <div style={ExperienceStyles}>
-      <ExperienceItems/>
+      <CallText/>
     </div>
   )
 }
 
-export default Experience
+export default CallToAction
