@@ -6,10 +6,10 @@ function AboutUs() {
 
 
   return (
-    <>
+    <div>
      <CenterHeading heading={"ABOUT US"} />
       <AboutUsText/>
-    </>
+    </div>
   )
 }
 

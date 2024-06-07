@@ -24,8 +24,7 @@ function NavbarLi(props) {
   return (
     <>     
       <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#" style={liStyle} onMouseEnter={handleOnMouseEnterLi} onMouseLeave={handleOnMouseLeaveLi} >{props.name}</a>
-
+          <a className="nav-link" href={props.link} style={liStyle} onMouseEnter={handleOnMouseEnterLi} onMouseLeave={handleOnMouseLeaveLi} >{props.name}</a>
         </li>
 
     </>

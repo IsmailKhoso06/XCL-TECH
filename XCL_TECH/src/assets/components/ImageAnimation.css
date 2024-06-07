@@ -1,21 +1,21 @@
 .imageAnimation{
-    animation: toandfro 6s infinite ease-in-out;
-    -webkit-animation: toandfro 6s infinite ease-in-out;
+    animation: toandfro 8s infinite ease-in-out;
+    -webkit-animation: toandfro 8s infinite ease-in-out;
 }
 
 @keyframes toandfro{
     0%{
-        top: -180px;
+        top: -100px;
         left: 0px;
 
     }
     50%{
-        top: -300px;
+        top: -250px;
         transform: rotate(-30deg);
-        left: -100px;
+        left: -50px;
 }
     100%{
-        top: -180px;
+        top: -100px;
         left: 0px;
     }
 }

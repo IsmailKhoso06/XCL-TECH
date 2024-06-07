@@ -4,7 +4,7 @@ import CallText from './CallText'
 function CallToAction() {
     
     const ExperienceStyles = {
-        height: "200px",
+        height: "150px",
         background: "#F67510",
         marginBottom:"50px"
     }

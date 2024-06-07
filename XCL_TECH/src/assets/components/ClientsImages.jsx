@@ -11,8 +11,8 @@ function ClientsImages({images}) {
     <div className='container'>
     <div className='row'>
         {images.map((image, index)=>(
-            <div className='col-lg-2'>
-                <img src={image}key={index} style={imagesStyle}/>
+            <div  key={index} className='col-lg-2'>
+                <img src={image} style={imagesStyle}/>
             </div>
         ))}
     </div>
